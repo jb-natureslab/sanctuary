@@ -8,8 +8,15 @@
 		  class="embeddable-buttondown-form"
 		>
 	      <h2 id="signup">Register Your Interest</h2>
-		  <label for="first-name">First name</label>
-		  <input id="first-name" type="text" name="metadata__first-name" required placeholder="John" />
+		  <label for="name">Name</label>
+		  <input id="name" type="text" name="metadata__name" required placeholder="John" />
+		  
+		  <label for="bd-email">Email</label>
+		  <input type="email" name="email" id="bd-email" required placeholder="john@example.com" />
+		  
+		  <label for="bd-phone">Phone</label>
+		  <input id="phone" type="text" name="metadata__phone" />
+		  
 		  <label for="organisation">Type of Organisation</label>
 		  <select id="organisation" name="metadata__organisation" required>
 			  <option value="individual">Individual</option>
@@ -17,9 +24,10 @@
 			  <option value="community-group">Community Group</option>
 			  <option value="business">Business</option>
 		  </select>
-		  <label for="bd-email">Enter your email</label>
-		  <input type="email" name="email" id="bd-email" required placeholder="john@example.com" />
-		  <input type="submit" value="Keep Me Informed" class="button" />
+		  
+		  <p>Please read our <a href="/privacy">privacy statement</a> before submitting this form</p>
+		  
+		  <input type="submit" value="Register" class="button" />
 		</form>
 	</div>
 </div>
