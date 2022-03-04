@@ -3,18 +3,23 @@
 			<p>&copy; <?= date('Y') ?> Sanctuary Foundation &bull; Built by <a href="https://jackbarber.co.uk">Jack</a></p>
 		</div>
 	</footer>
-	
-	<script src="https://kit.fontawesome.com/8a8f25e454.js" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+	<!-- Matomo -->
 	<script>
-		Fancybox.bind("[data-fancybox]", {
-		  // Your options go here
-		});
-		$('nav button.bars').click(function(){
-			$('header nav ul').toggleClass('show');
-			$('nav button.bars i').toggleClass('fa-bars').toggleClass('fa-times');
-		})
+	  var _paq = window._paq = window._paq || [];
+	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	  _paq.push(['disableCookies']);
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="https://analytics.natureslaboratory.co.uk/";
+	    _paq.push(['setTrackerUrl', u+'matomo.php']);
+	    _paq.push(['setSiteId', '15']);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	  })();
 	</script>
+	<!-- End Matomo Code -->
+
 </body>
 </html>
