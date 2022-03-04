@@ -373,6 +373,16 @@ form p{
 	margin-top:1em;
 }
 
+form a{
+	color:#fff;
+	border-bottom:1px solid #fff;
+}
+
+form a:hover{
+	color:var(--colour-accent);
+	border-bottom:1px solid var(--colour-accent);
+}
+
 .wrapper--video_restrict iframe{
 	position: absolute;
 	top:-300px;

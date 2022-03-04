@@ -1,6 +1,6 @@
 <div class="wrapper wrapper--hero">
 	<?php if($image = $block->photo()->toFile()): ?>
-	<img src="<?= $image->resize(1440)->url() ?>" alt="<?= $block->photoalt() ?>">
+	<img src="<?= $image->resize(1280)->url() ?>" alt="<?= $block->photoalt() ?>">
 	<?php endif ?>
 	<div class="wrapper--hero_text">
 		<div class="restrict flow">

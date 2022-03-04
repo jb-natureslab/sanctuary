@@ -14,7 +14,7 @@
 		  <label for="bd-email">Email</label>
 		  <input type="email" name="email" id="bd-email" required placeholder="john@example.com" />
 		  
-		  <label for="bd-phone">Phone</label>
+		  <label for="phone">Phone</label>
 		  <input id="phone" type="text" name="metadata__phone" />
 		  
 		  <label for="organisation">Type of Organisation</label>
