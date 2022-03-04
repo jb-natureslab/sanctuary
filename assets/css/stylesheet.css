@@ -440,7 +440,7 @@ img{
 }
 
 @media screen and (max-width:500px){
-	.wrapper--hero_text{
-		
+	.wrapper--video_restrict iframe{
+		height:300px;
 	}
 }
