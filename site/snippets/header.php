@@ -9,12 +9,18 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">  
 	<?= css('/assets/css/stylesheet.css?v='.rand()) ?>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
 </head>
 <body>
 	<header>
 		<div class="header_restrict">
-			<a class="logo" href="<?= $site->url() ?>"><img src="/assets/images/sanctuary.svg" alt="Sanctuary Foundation" /></a>
+			
+			<?php
+				if($page->title()=='Home' || $page->title()=='Thanks'){
+					echo '<a class="logo" href="/"><img src="/assets/images/sanctuary-white.svg" alt="Sanctuary Foundation" /></a>';		
+				}else{
+					echo '<a class="logo" href="/"><img src="/assets/images/sanctuary-color.svg" alt="Sanctuary Foundation" /></a>';
+				}
+			?>
 <!--
 			<nav>
 				<button class="bars"><i class="fa fa-bars"></i></button>
