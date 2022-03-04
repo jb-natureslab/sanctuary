@@ -1,0 +1,46 @@
+title: Default Page
+preset: page
+fields:
+  seotitle:
+    label: SEO Page Title
+    type: text
+  meta:
+    label: Meta Description
+    type: text
+  text:
+    type: blocks
+    fieldsets:
+      hero:
+        name: Hero
+        fields:
+          heading:
+            label: Heading
+            type: text
+          subheading:
+            label: Subheading
+            type: text
+          intro:
+            label: Introduction
+            type: textarea
+          photo:
+            label: Photo
+            type: files
+            min: 1
+            max: 1
+          photoalt:
+            label: Photo Alt Text
+            type: text
+          button:
+            label: Button Text
+            type: text
+          buttonurl:
+            label: Button URL
+            type: text
+      standardtext:
+        name: Text
+        fields:
+          text:
+            label: Text
+            type: textarea
+      signup:
+        name: Sign Up

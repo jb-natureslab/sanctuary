@@ -1,0 +1,398 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:root {
+  --size-300: 0.75rem;
+  --size-400: 1rem;
+  --size-500: 1.33rem;
+  --size-600: 1.77rem;
+  --size-700: 2.36rem;
+  --size-800: 3.15rem;
+  --size-900: 4.2rem;
+  --colour-primary:#233A7C;
+  --colour-secondary:#723189;
+  --colour-highlight:#C72285;
+  --colour-accent:#FD6500;
+  
+}
+
+body,html {
+  background: #f3f3f3;
+  color: var(--colour-primary);
+  line-height: 1.5;
+  font-family: 'Lora', Georgia, serif;
+  padding:0;
+  margin:0;
+}
+
+:focus {
+  outline: 2px dashed;
+  outline-offset: 0.25rem;
+}
+
+main:focus {
+  outline: none;
+}
+
+
+[href]:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+  color:var(--colour-secondary);
+}
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: var(--size-700);
+}
+
+h2 {
+  font-size: var(--size-600);
+}
+
+h3 {
+  font-size: var(--size-600);
+}
+
+img {
+  max-width: 50rem;
+}
+
+figcaption {
+  font-size: var(--size-300);
+
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+blockquote {
+  padding-left: var(--size-600);
+  border-left: 5px solid;
+  font-style: italic;
+}
+
+::selection {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.99);
+}
+
+.flow > * + *{
+  margin-top: var(--flow-space, 1em);
+}
+
+.flow{
+	padding-top:1em;
+}
+
+p,
+li {
+  max-width: 60ch;
+}
+
+h1 {
+  max-width: 25ch;
+}
+
+h2,
+h3 {
+  max-width: 40ch;
+}
+
+@media (min-width: 45em) {
+  h1 {
+    font-size: var(--size-900);
+  }
+
+  h2 {
+    font-size: var(--size-700);
+  }
+
+  p,ul,label,a {
+    font-size: var(--size-500);
+  }
+}
+
+header{
+	top:0;
+	left:0;
+	height:100px;
+	z-index:200;
+	width:100%;
+	margin-bottom: -100px;
+}
+
+footer{
+	width:100%;
+	float:left;
+	padding-bottom:4rem;
+	border-top:1px solid var(--colour-secondary);
+	margin-top:4rem;
+}
+
+footer p{
+	margin:0;
+}
+
+a.logo{
+	position:absolute;
+	top:1em;
+	left:1em;
+	width:200px;
+	z-index:200;
+	border-bottom: none;
+}
+
+a.logo:hover{
+	border-bottom: none;
+	opacity: 0.7;
+}
+
+nav{
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+.wrapper{
+	width:100%;
+	float:left;
+}
+
+.wrapper--text_restrict,
+.wrapper--form_restrict,
+.footer_restrict{
+	max-width:1280px;
+	margin:0 auto;
+	display:block;
+	padding:4rem 1em 0;
+}
+
+.wrapper--hero{
+	top:0;
+	left:0;
+	position:relative;
+	z-index:0;
+}
+
+.wrapper--hero h2{
+	margin-top:0;
+}
+
+.wrapper--hero img{
+	width:100%;
+	max-width:100%;
+	object-fit:cover;
+}
+
+.wrapper--hero_text{
+	position: absolute;
+	width:100%;
+	bottom:0px;
+	left:0px;
+	background: linear-gradient(to bottom right, rgba(0,35,58,124.7) 0%, rgba(199,34,133,0.6) 100%);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapper--hero_text h1,
+.wrapper--hero_text h2,
+.wrapper--hero_text p{
+	color:#fff;
+}
+
+.wrapper--hero,
+.wrapper--hero img,
+.wrapper--hero_text{
+	height:70vh;
+	min-height:600px;
+	height:70vh;
+}
+
+
+.wrapper--hero_text .restrict{
+	width:1280px;
+	display:block;
+	margin:0 auto;
+	padding:0 1em;
+}
+
+.button {
+  background-color: var(--colour-secondary);
+  box-shadow: 0 5px 0 var(--colour-primary);
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  display:inline-block;
+  float:left;
+  border-bottom:none;
+}
+
+.button:hover {
+  background-color: var(--colour-primary);
+  cursor: pointer;
+  border-bottom:none;
+  color:#fff;
+}
+
+.button:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+input[type=submit].button{
+	display:block;
+	float:none;
+	margin-top:1em;
+	border:none;
+}
+
+a{
+	color:var(--colour-highlight);
+	border-bottom:1px solid var(--colour-highlight);
+	text-decoration: none;
+}
+
+a:hover{
+	color:var(--colour-accent);
+	border-bottom:1px solid var(--colour-accent);
+}
+
+form{
+	background:var(--colour-primary);
+	padding:2em;
+}
+
+form h2,
+form label{
+	color:#fff;
+}
+
+form label{
+	margin-top:1em;
+	display:block;
+}
+
+form input[type=text],
+form input[type=email]{
+	padding:1em;
+	width:40ch;
+	max-width:100%;
+}
+
+form :focus{
+	outline:2px dashed var(--colour-highlight);
+}
+
+form .button {
+  background-color: var(--colour-highlight);
+  box-shadow: 0 5px 0 var(--colour-secondary);
+}
+
+form .button:hover{
+  background-color: var(--colour-secondary);
+  box-shadow: 0 5px 0 var(--colour-secondary);	
+}
+
+@media screen and (max-width:1780px){
+	a.logo{
+		width:140px;
+	}
+}
+
+@media screen and (max-width:1280px){
+	a.logo{
+		width:120px;
+	}
+}
+
+@media screen and (max-width:500px){
+	.wrapper--hero_text{
+		
+	}
+}
