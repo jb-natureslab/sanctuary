@@ -44,3 +44,5 @@ fields:
             type: textarea
       signup:
         name: Sign Up
+      embedvideo:
+        name: Video

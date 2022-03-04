@@ -227,11 +227,13 @@ nav{
 
 .wrapper--text_restrict,
 .wrapper--form_restrict,
+.wrapper--video_restrict,
 .footer_restrict{
 	max-width:1280px;
 	margin:0 auto;
 	display:block;
 	padding:4rem 1em 0;
+	position: relative;
 }
 
 .wrapper--hero{
@@ -371,6 +373,42 @@ form p{
 	margin-top:1em;
 }
 
+.wrapper--video_restrict iframe{
+	position: absolute;
+	top:-300px;
+	right:30px;
+	border:20px solid var(--colour-highlight);
+	box-shadow: 0px 0px 10px #777;
+	transform: rotate(-2deg);
+	width:600px;
+	height:380px;
+}
+
+.wrapper--video_restrict img{
+	position:absolute;
+	right:700px;
+	top:-200px;
+	width:240px;
+	height:120px;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+@media screen and (max-height:1090px){
+	.wrapper--video_restrict iframe{
+		top:-200px;
+	}
+	.wrapper--video_restrict img{
+		top:-150px;
+	}
+	.wrapper--video_restrict{
+		margin-bottom:140px;
+	}
+}
+
 @media screen and (max-width:1780px){
 	a.logo{
 		width:140px;
@@ -380,6 +418,24 @@ form p{
 @media screen and (max-width:1280px){
 	a.logo{
 		width:120px;
+	}
+}
+
+@media screen and (max-width:1024px){
+	.wrapper--video_restrict iframe{
+		position: relative;
+		left:0;
+		right:0;
+		top:-140px;
+		margin:0 auto;
+		display: block;
+		max-width:100%;
+	}
+	.wrapper--video_restrict img{
+		display:none;
+	}
+	.wrapper--video_restrict{
+		margin-bottom:-140px;
 	}
 }
 
