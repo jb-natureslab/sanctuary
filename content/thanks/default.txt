@@ -10,4 +10,4 @@ Meta:
 
 ----
 
-Text: [{"content":{"heading":"Thanks for Registering","subheading":"We'll be in touch soon with more information","intro":"In the meantime, please share the Sanctuary Foundation website with your friends, family and colleagues. Together we can make a real difference to Ukrainian people seeking safety.","photo":["adobestock_296704539.jpeg"],"photoalt":"Ukraine","button":"Home Page","buttonurl":"\/"},"id":"2fa476a2-5d48-41e6-ac01-fcc853e466de","isHidden":false,"type":"hero"}]
+Text: [{"content":{"heading":"Thanks for Registering","subheading":"We'll be in touch soon with more information","intro":"Please look out for an email asking you to confirm your registration - please click the link in the email to complete the registration process.\n\nIn the meantime, please share the Sanctuary Foundation website with your friends, family and colleagues. Together we can make a real difference to Ukrainian people seeking safety.","photo":["adobestock_296704539.jpeg"],"photoalt":"Ukraine","button":"Home Page","buttonurl":"\/"},"id":"2fa476a2-5d48-41e6-ac01-fcc853e466de","isHidden":false,"type":"hero"}]

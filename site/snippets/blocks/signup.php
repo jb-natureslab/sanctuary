@@ -26,7 +26,7 @@
 		  </select>
 		  
 		  <p>Please read our <a href="/privacy">privacy statement</a> before submitting this form.</p>
-		  <p>You will receive an email asking you to confirm your subscription - please ensure you click the link in the email to complete the process.</p>
+		  <p>You will receive an email asking you to confirm your registration - please ensure you click the link in the email to complete the process.</p>
 		  
 		  <input type="submit" value="Register" class="button" />
 		</form>
