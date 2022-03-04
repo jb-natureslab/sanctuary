@@ -359,10 +359,12 @@ form label{
 }
 
 form input[type=text],
-form input[type=email]{
+form input[type=email],
+form select{
 	padding:1em;
 	width:40ch;
 	max-width:100%;
+	background:#fff;
 }
 
 form :focus{
