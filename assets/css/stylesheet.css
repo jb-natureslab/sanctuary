@@ -286,6 +286,11 @@ nav{
 	display:block;
 }
 
+.wrapper--text_restrict img{
+	max-width:300px;
+	height:auto;
+}
+
 .wrapper--hero{
 	top:0;
 	left:0;
