@@ -513,3 +513,11 @@ img{
 		height:300px;
 	}
 }
+
+.juicer-feed h1.referral{
+	display:none !important;
+}
+
+.juicer-feed.loaded{
+	margin-top:4rem !important;
+}
