@@ -4,7 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?= $page->seotitle() ?></title>
+	
 	<meta name="description" content="<?= $page->meta() ?>">
+	<meta property="og:title" content="Sanctuary Foundation | Supporting New Arrivals from Ukraine">
+	<meta property="og:description" content="<?= $page->meta() ?>">
+	<meta property="og:site_name" content="Sanctuary Foundation">
+	<meta property="og:locale" content="en_GB">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://sanctuaryfoundation.org.uk">
+	<meta property="og:image" content="https://sanctuaryfoundation.org.uk/assets/images/og.jpg">
+	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">  
