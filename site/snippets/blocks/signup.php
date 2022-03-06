@@ -7,7 +7,7 @@
 		  onsubmit="window.open('https://buttondown.email/sanctuaryfoundation', 'popupwindow')"
 		  class="embeddable-buttondown-form"
 		>
-	      <h2 id="signup">Register Your Interest</h2>
+	      <h2 id="signup">Pledge Your Support</h2>
 		  <label for="name">Name</label>
 		  <input id="name" type="text" name="metadata__name" required placeholder="John" />
 		  
@@ -27,7 +27,7 @@
 		  
 		  <p>Please read our <a href="/privacy">privacy statement</a> before submitting this form.</p>
 		  
-		  <input type="submit" value="Register" class="button" />
+		  <input type="submit" value="I Pledge My Support" class="button" />
 		</form>
 	</div>
 </div>
