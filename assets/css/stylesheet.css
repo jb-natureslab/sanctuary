@@ -231,17 +231,36 @@ nav{
 	padding-bottom:4rem;
 }
 
+.wrapper--pledges{
+	background:var(--colour-highlight);
+	margin-top:4rem;
+	padding-bottom:4rem;
+	text-align: center;
+}
+
+.wrapper--pledges h3,
+.wrapper--pledges p{
+	max-width: 100%;
+	color:#fff;
+}
+
 .wrapper--text_restrict,
 .wrapper--form_restrict,
 .wrapper--video_restrict,
 .wrapper--twitter_restrict,
 .wrapper--endorsements_restrict,
+.wrapper--pledges_restrict,
 .footer_restrict{
 	max-width:1280px;
 	margin:0 auto;
 	display:block;
 	padding:4rem 1em 0;
 	position: relative;
+}
+
+p.pledges{
+	font-size:var(--size-900);
+	margin-top:1rem;
 }
 
 .wrapper--endorsements h2{
