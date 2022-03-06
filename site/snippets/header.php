@@ -6,6 +6,11 @@
 	<title><?= $page->seotitle() ?></title>
 	
 	<meta name="description" content="<?= $page->meta() ?>">
+	
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@krishk" />
+	<meta name="twitter:creator" content="@krishk" />
+	
 	<meta property="og:title" content="Sanctuary Foundation | Supporting New Arrivals from Ukraine">
 	<meta property="og:description" content="<?= $page->meta() ?>">
 	<meta property="og:site_name" content="Sanctuary Foundation">
