@@ -50,3 +50,5 @@ fields:
         name: Twitter
       endoresments:
         name: Endorsements
+      pledges:
+        name: Pledges
