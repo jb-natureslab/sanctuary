@@ -20,7 +20,7 @@
 			}
 			curl_close($ch);
 			$result = json_decode($result,true);
-			echo "<p>$result[count]</p>";
+			echo "<p class='pledges'>$result[count]</p>";
 			?>
 	</div>
 </div>
