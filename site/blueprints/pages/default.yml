@@ -46,3 +46,7 @@ fields:
         name: Sign Up
       embedvideo:
         name: Video
+      twitterfeed:
+        name: Twitter
+      endoresments:
+        name: Endorsements

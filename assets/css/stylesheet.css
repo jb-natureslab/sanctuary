@@ -225,15 +225,65 @@ nav{
 	float:left;
 }
 
+.wrapper--endorsements{
+	background:var(--colour-secondary);
+	margin-top:4rem;
+	padding-bottom:4rem;
+}
+
 .wrapper--text_restrict,
 .wrapper--form_restrict,
 .wrapper--video_restrict,
+.wrapper--twitter_restrict,
+.wrapper--endorsements_restrict,
 .footer_restrict{
 	max-width:1280px;
 	margin:0 auto;
 	display:block;
 	padding:4rem 1em 0;
 	position: relative;
+}
+
+.wrapper--endorsements h2{
+	color:#fff;
+	margin-bottom:2rem;
+}
+
+.wrapper--endorsements ul.cards{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2rem;
+	grid-row-gap: 2rem;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.wrapper--endorsements ul.cards li{
+	background:#f1f2f2;
+	box-shadow: 0px 0px 10px #333;
+	padding-bottom:1rem;
+}
+
+.wrapper--endorsements ul.cards li img{
+	width:100%;
+	max-height:200px;
+	object-fit:cover;
+}
+
+.wrapper--endorsements ul.cards li blockquote{
+	border:none;
+	font-size:1rem;
+	margin:1rem 0;
+	padding:1rem;
+	margin-bottom:0;
+	font-style: normal;
+}
+
+.wrapper--endorsements ul.cards li small{
+	font-size:0.8rem;
+	margin:0 1rem;
+	display:block;
 }
 
 .wrapper--hero{
@@ -446,6 +496,15 @@ img{
 	}
 	.wrapper--video_restrict{
 		margin-bottom:-140px;
+	}
+	.wrapper--endorsements ul.cards{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width:600px){
+	.wrapper--endorsements ul.cards{
+		grid-template-columns: 1fr;
 	}
 }
 
