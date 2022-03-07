@@ -21,6 +21,7 @@
 		  <select id="organisation" name="metadata__organisation" required>
 			  <option value="individual">Individual</option>
 			  <option value="church">Church</option>
+			  <option value="school">School</option>
 			  <option value="community-group">Community Group</option>
 			  <option value="business">Business</option>
 		  </select>
