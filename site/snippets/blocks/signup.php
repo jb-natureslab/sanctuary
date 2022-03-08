@@ -26,7 +26,7 @@
 			  <option value="business">Business</option>
 		  </select>
 		  
-		  <p>Please read our <a href="/privacy">privacy statement</a> before submitting this form.</p>
+		  <p>Please read our <a href="/privacy">privacy statement</a> before submitting this form. By pledging your support you are not committing to any specific form of help at this point, as the details of the scheme are yet to be published.</p>
 		  
 		  <input type="submit" value="I Pledge My Support" class="button" />
 		</form>
