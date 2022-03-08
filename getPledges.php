@@ -17,5 +17,5 @@ if (curl_errno($ch)) {
 }
 curl_close($ch);
 $result = json_decode($result,true);
-return $result['count'];
+echo $result['count'];
 ?>
