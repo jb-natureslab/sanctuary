@@ -9,7 +9,8 @@
 		  frameborder="0"
 		  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		  allowfullscreen
-		  title="Sanctuary Foundation"
+		  title="Sanctuary Foundation" 
+		  loading="lazy"
 		></iframe>
 	</div>
 </div>

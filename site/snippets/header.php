@@ -19,6 +19,7 @@
 	<meta property="og:url" content="https://sanctuaryfoundation.org.uk">
 	<meta property="og:image" content="https://sanctuaryfoundation.org.uk/assets/images/og.jpg">
 	
+	<link rel="preconnect" href="https://www.youtube.com">
 	<link rel="preconnect" href="https://assets.juicer.io">
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
