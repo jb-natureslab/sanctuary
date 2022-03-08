@@ -1,6 +1,11 @@
 <div class="wrapper wrapper--hero">
 	<?php if($image = $block->photo()->toFile()): ?>
-	<img src="<?= $image->resize(1280)->url() ?>" alt="<?= $block->photoalt() ?>">
+	<img src="<?= $image->resize(400)->url() ?>" srcset="<?= $image->srcset([
+	  '400w'  => ['width' => 400, 'format' => 'webp'],
+	  '800w'  => ['width' => 800, 'format' => 'webp'],
+	  '1200w' => ['width' => 1200, 'format' => 'webp']
+	]); ?>" alt="<?= $block->photoalt() ?>">
+	
 	<?php endif ?>
 	<div class="wrapper--hero_text">
 		<div class="restrict flow">
