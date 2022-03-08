@@ -4,5 +4,12 @@
 		<?php
 			echo "<p class='pledges'></p>";
 		?>
+		<script>
+			$(window).ready(function(){
+			    $.get( "/getPledges.php", function( data ) {
+				 	$( ".pledges" ).text( data );
+				});
+		    })
+		</script>
 	</div>
 </div>
