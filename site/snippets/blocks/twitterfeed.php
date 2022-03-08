@@ -9,6 +9,9 @@
 			 $(window).scroll(function() {
 		        if($(window).scrollTop()>'500'){
 		            Juicer.initialize();
+		            $.get( "/getPledges.php", function( data ) {
+					 	$( ".pledges" ).html( data );
+					});
 		        }
 		    });
 		</script>
