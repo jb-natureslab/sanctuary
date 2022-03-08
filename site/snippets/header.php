@@ -20,7 +20,6 @@
 	<meta property="og:image" content="https://sanctuaryfoundation.org.uk/assets/images/og.jpg">
 	
 	<link rel="preconnect" href="https://www.youtube.com">
-	<link rel="preconnect" href="https://assets.juicer.io">
 	
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@700&display=swap" />
