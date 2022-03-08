@@ -14,7 +14,7 @@
 		    
 		    $(window).ready(function(){
 			    $.get( "/getPledges.php", function( data ) {
-				 	$( ".pledges" ).innerText( data );
+				 	$( ".pledges" ).text( data );
 				});
 		    })
 		</script>
