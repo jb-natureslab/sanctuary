@@ -28,6 +28,7 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@700&display=swap" />
 	</noscript>
 	
+	<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
 	<?= css('/assets/css/stylesheet.css?v='.rand()) ?>
 </head>
 <body>
