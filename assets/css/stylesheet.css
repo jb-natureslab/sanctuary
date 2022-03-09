@@ -245,7 +245,7 @@ nav ul li a:hover{
 	color:var(--colour-highlight);
 }
 
-@media screen and (max-width:820px){
+@media screen and (max-width:880px){
 	nav ul{
 		background:#fff;
 		width:240px;
