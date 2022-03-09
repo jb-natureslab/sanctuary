@@ -363,7 +363,7 @@ p.pledges{
 
 .wrapper--endorsements ul.cards{
 	display:grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 2rem;
 	grid-row-gap: 2rem;
 	list-style: none;
@@ -379,7 +379,7 @@ p.pledges{
 
 .wrapper--endorsements ul.cards li img{
 	width:100%;
-	max-height:200px;
+	max-height:240px;
 	object-fit:cover;
 }
 
