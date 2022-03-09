@@ -43,25 +43,25 @@ foreach($result['results'] as $user){
 	echo $json;
 	
 	if($email=='jack@natureslaboratory.co.uk'){
+		$ch = curl_init();
 		
-		$data = "{\"email\":\"'$email\",\"tags\": [\"$organisationTag\"]}";
-		$url = "'https://api.buttondown.email/v1/subscribers/".$user['id'];
+		curl_setopt($ch, CURLOPT_URL, 'https://api.buttondown.email/v1/subscribers/'.$user['id']);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PATCH');
+		curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"email\":\"'$email\",\"tags\": [\"$organisationTag\"]}");
 		
 		$headers = array();
 		$headers[] = 'Authorization: Token a501317c-9cf7-4fb2-bd84-b76d66a31010';
-		$headers[] = array('Content-Type: application/json');
+		$headers[] = 'Content-Type: application/json';
+		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		
-		$curl = curl_init();
-		curl_setopt($curl, CURLOPT_URL, $url);
-		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-		curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'PATCH');
-		curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
-		curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
-		$response = curl_exec($curl);
-		curl_close($curl);
-		$ch = curl_init();
+		$result2 = curl_exec($ch);
+		if (curl_errno($ch)) {
+		    echo 'Error:' . curl_error($ch);
+		}
+		curl_close($ch);
 		
-		print_r($response);
+		print_r($result2);
 		
 		echo "<hr />";
 	}
