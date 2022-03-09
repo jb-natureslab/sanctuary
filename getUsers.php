@@ -42,13 +42,13 @@ foreach($result['results'] as $user){
 }';
 	echo $json;
 	
-	if($email=='jack@natureslaboratory.co.uk'){
+	if($email=="'jack@natureslaboratory.co.uk"){
 		$ch = curl_init();
 		
 		curl_setopt($ch, CURLOPT_URL, 'https://api.buttondown.email/v1/subscribers/'.$user['id']);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PATCH');
-		curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"email\":\"'$email\",\"tags\": [\"$organisationTag\"]}");
+		curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"email\":\"$email\",\"tags\": [\"$organisationTag\"]}");
 		
 		$headers = array();
 		$headers[] = 'Authorization: Token a501317c-9cf7-4fb2-bd84-b76d66a31010';
