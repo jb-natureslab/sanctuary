@@ -18,12 +18,12 @@
 		  <input id="phone" type="text" name="metadata__phone" />
 		  
 		  <label for="organisation">Type of Organisation</label>
-		  <select id="organisation" name="metadata__organisation" required>
-			  <option value="individual">Individual</option>
-			  <option value="church">Church</option>
-			  <option value="school">School</option>
-			  <option value="community-group">Community Group</option>
-			  <option value="business">Business</option>
+		  <select id="organisation" name="tag" required>
+			  <option value="Individual">Individual</option>
+			  <option value="Church">Church</option>
+			  <option value="School">School</option>
+			  <option value="Community-group">Community Group</option>
+			  <option value="Business">Business</option>
 		  </select>
 		  
 		  <p>Please read our <a href="/privacy">privacy statement</a> before submitting this form. By pledging your support you are not committing to any specific form of help at this point, as the details of the scheme are yet to be published.</p>
