@@ -17,6 +17,7 @@ if (curl_errno($ch)) {
 }
 curl_close($ch);
 $result = json_decode($result,true);
+print_r($result);
 foreach($result[0] as $user){
 	print_r($user);
 	echo "<hr />";
