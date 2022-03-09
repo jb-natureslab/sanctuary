@@ -34,6 +34,10 @@ foreach($result['results'] as $user){
 	$metadata = $user['metadata'];
 	$organisation = $metadata['organisation'];
 	$organisationTag = ucwords(str_replace("-", " ", $organisation));
+	
+	if($organisationTag==''){
+		$organisationTag = 'Individual';
+	}
 
 	$ch = curl_init();
 	
