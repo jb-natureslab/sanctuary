@@ -565,6 +565,15 @@ img{
 	a.logo{
 		width:120px;
 	}
+	nav{
+		top:2.2em
+	}
+}
+
+@media screen and (max-width:720px){
+	nav{
+		top:1.4rem;
+	}
 }
 
 @media screen and (max-width:1024px){
