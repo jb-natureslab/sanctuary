@@ -26,6 +26,7 @@ if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
 }
 curl_close($ch);
+
 $result = json_decode($result,true);
 foreach($result['results'] as $user){
 	print_r($user);
@@ -33,14 +34,6 @@ foreach($result['results'] as $user){
 	$metadata = $user['metadata'];
 	$organisation = $metadata['organisation'];
 	$organisationTag = ucwords(str_replace("-", " ", $organisation));
-	$json = '
-	{
-  "email": "'.$email.'",
-  "tags": [
-    "'.$organisationTag.'"
-  ]
-}';
-	echo $json;
 
 	$ch = curl_init();
 	
