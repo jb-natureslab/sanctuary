@@ -9,7 +9,7 @@ $ch = curl_init();
 $page = $_GET['page'];
 $url = 'https://api.buttondown.email/v1/subscribers';
 if($page){
-	$url = $url.'?page='.$page
+	$url = $url.'?page='.$page;
 }
 
 curl_setopt($ch, CURLOPT_URL, $url);
