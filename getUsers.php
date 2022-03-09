@@ -17,9 +17,13 @@ if (curl_errno($ch)) {
 }
 curl_close($ch);
 $result = json_decode($result,true);
-print_r($result);
 foreach($result['results'] as $user){
 	print_r($user);
+	$email = $user['email'];
+	$metadata = $user['metadata'];
+	$organisation = $metadata['organisation'];
+	$organisationTag = ucwords(str_replace("-", " ", $organisation));
+	echo $email." ".$organisationTag;
 	echo "<hr />";
 }
 ?>
