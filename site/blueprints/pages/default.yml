@@ -55,3 +55,15 @@ fields:
         name: Endorsements
       pledges:
         name: Pledges
+      photogallery:
+        name: Gallery
+        fields:
+          text:
+            label: Gallery Name
+            type: text
+          images:
+            type: files
+            label: Images
+            multiple: true
+            layout: cards
+            size: tiny

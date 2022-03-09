@@ -301,9 +301,38 @@ nav ul li a:hover{
 }
 
 .wrapper--pledges h3,
-.wrapper--pledges p{
+.wrapper--pledges p,
+.wrapper--gallery h3{
 	max-width: 100%;
 	color:#fff;
+}
+
+.wrapper--gallery h3{
+	text-align: center;
+}
+
+.wrapper--gallery ul{
+	list-style:none;
+	margin:0;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2rem;
+	grid-row-gap: 2rem;
+	margin:4rem 0;
+}
+
+.wrapper--gallery ul li{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background:#fff;
+	padding:1rem;
+}
+
+.wrapper--gallery ul li:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 .wrapper--text_restrict,
@@ -312,6 +341,7 @@ nav ul li a:hover{
 .wrapper--twitter_restrict,
 .wrapper--endorsements_restrict,
 .wrapper--pledges_restrict,
+.wrapper--gallery_restrict,
 .footer_restrict{
 	max-width:1280px;
 	margin:0 auto;
@@ -399,6 +429,10 @@ p.pledges{
 	display:flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.wrapper--gallery{
+	background:var(--colour-primary);
 }
 
 .wrapper--hero_text h1,
