@@ -35,8 +35,6 @@ foreach($result['results'] as $user){
 	$organisation = $metadata['organisation'];
 	$organisationTag = ucwords(str_replace("-", " ", $organisation));
 
-	if($email=='shiona.hawkins@gmail.com'){
-
 	$ch = curl_init();
 	
 	curl_setopt($ch, CURLOPT_URL, 'https://api.buttondown.email/v1/subscribers/'.$user['id']);
@@ -56,7 +54,7 @@ foreach($result['results'] as $user){
 	curl_close($ch);
 	
 	print_r($result2);
-	}	
+	
 	echo "<hr />";
 
 }
