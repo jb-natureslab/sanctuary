@@ -1,4 +1,4 @@
-<div class="wrapper wrapper--endorsements">
+<div class="wrapper wrapper--endorsements" id="endorsements">
 	<div class="wrapper--endorsements_restrict flow">
 		<h2>Endorsements</h2>
 		<ul class="cards">

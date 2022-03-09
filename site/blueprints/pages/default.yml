@@ -42,6 +42,9 @@ fields:
           text:
             label: Text
             type: textarea
+          containerid:
+            label: ID for Navigation
+            type: text
       signup:
         name: Sign Up
       embedvideo:

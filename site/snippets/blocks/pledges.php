@@ -1,6 +1,6 @@
 <div class="wrapper wrapper--pledges">
 	<div class="wrapper--pledges_restrict flow">
-		<h3>Pledges So Far</h2>
+		<h3>Pledges So Far</h3>
 		<?php
 			echo "<p class='pledges'></p>";
 		?>

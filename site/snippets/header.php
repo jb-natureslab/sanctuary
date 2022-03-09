@@ -28,7 +28,15 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@700&display=swap" />
 	</noscript>
 	
-	<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+	<script src='//code.jquery.com/jquery-3.4.1.min.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('#menu').click(function(){
+				console.log('click');
+				$('nav ul').toggleClass('show');
+			});
+		});
+	</script>
 	<?= css('/assets/css/stylesheet.css?v='.rand()) ?>
 </head>
 <body>
@@ -42,16 +50,16 @@
 					echo '<a class="logo" href="/"><img src="/assets/images/sanctuary-color.svg" alt="Sanctuary Foundation" /></a>';
 				}
 			?>
-<!--
 			<nav>
-				<button class="bars"><i class="fa fa-bars"></i></button>
+				<button id="menu">Menu</button>
 				<ul>
-					<li class="home"><a href="/">Home</a></li>
-				<?php foreach($site->children()->listed() as $item):?>
-					<li><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
-				<?php endforeach ?>
+					<li><a href="#about">About</a></li>
+					<li><a href="#pledge">Pledge Your Support</a></li>
+					<li><a href="#endorsements">Endorsements</a></li>
+					<li><a href="#us">Who We Are</a></li>
+					<li><a href="#faq">FAQ</a></li>
+					<li><a href="#social">Social</a></li>
 				</ul>
 			</nav>
--->
 		</div>
 	</header>
