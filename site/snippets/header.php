@@ -53,12 +53,13 @@
 			<nav>
 				<button id="menu">Menu</button>
 				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#pledge">Pledge Your Support</a></li>
-					<li><a href="#endorsements">Endorsements</a></li>
-					<li><a href="#us">Who We Are</a></li>
-					<li><a href="#faq">FAQ</a></li>
-					<li><a href="#social">Social</a></li>
+					<li><a href="/#about">About</a></li>
+					<li><a href="/#pledge">Pledge Your Support</a></li>
+					<li><a href="/#endorsements">Endorsements</a></li>
+					<li><a href="/#us">Who We Are</a></li>
+					<li><a href="/#stories">Stories</a></li>
+					<li><a href="/#faq">FAQ</a></li>
+					<li><a href="/#social">Social</a></li>
 				</ul>
 			</nav>
 		</div>
