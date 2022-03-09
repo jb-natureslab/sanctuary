@@ -13,7 +13,7 @@
 				<small>&#8212; Cat Ross, CEO, Baby Basics</small>
 			</li>
 			<li>
-				<img src="/assets/images/nincky.jpg" alt="Nicky Gumbel" />
+				<img src="/assets/images/nicky.jpg" alt="Nicky Gumbel" />
 				<blockquote>&ldquo;I'm hugely grateful to this country for accepting my family when they were refugees. It's just one of many reasons I feel passionately that we should do everything we can to accept those fleeing war and persecution. The church should be at the forefront of welcoming refugees, regardless of their faith or beliefs, putting our faith into action and showing the love of God to those who have lost everything.&rdquo;</blockquote>
 				<small>&#8212; Nicky Gumbel, Pastor</small>
 			</li>
