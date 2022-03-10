@@ -31,8 +31,6 @@
 				
 				<p>Please read our <a href="/privacy">privacy statement</a> before submitting this form. By pledging your support you are not committing to any specific form of help at this point, as the details of the scheme are yet to be published.</p>
 				  
-				<p>After submitting this form you will be sent an email asking you to confirm your email address. Please click the link in the email to confirm your address - this will complete the process.</p>
-				  
 				</div>
 					<div id="mce-responses" class="clear foot">
 						<div class="response" id="mce-error-response" style="display:none"></div>
