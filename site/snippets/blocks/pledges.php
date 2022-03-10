@@ -2,7 +2,7 @@
 	<div class="wrapper--pledges_restrict flow">
 		<h3>Pledges So Far</h3>
 		<?php
-			echo "<p class='pledges'></p>";
+			echo "<div class='pledges'></div>";
 		?>
 		<script>
 			$(window).ready(function(){
