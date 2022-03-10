@@ -22,7 +22,7 @@
 			  <option value="Individual">Individual</option>
 			  <option value="Church">Church</option>
 			  <option value="School">School</option>
-			  <option value="Community-group">Community Group</option>
+			  <option value="Community Group">Community Group</option>
 			  <option value="Business">Business</option>
 		  </select>
 		  
