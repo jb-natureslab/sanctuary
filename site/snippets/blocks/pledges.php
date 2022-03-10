@@ -6,7 +6,7 @@
 		?>
 		<script>
 			$(window).ready(function(){
-			    $.get( "/getPledgeTotal.php", function( data ) {
+			    $.get( "/getPledges2.php", function( data ) {
 				 	$( ".pledges" ).html( data );
 				});
 		    })
