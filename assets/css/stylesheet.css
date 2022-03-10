@@ -736,6 +736,9 @@ img{
 	.pledge-totals{
 		grid-template-columns: 1fr 1fr;
 	}
+	.pledge-totals li:nth-child(2n){
+		border-right:none;	
+	}
 	.pledge-totals li:nth-child(5n),
 	.pledge-totals li:nth-child(6n){
 		border-bottom:1px solid #fff;
