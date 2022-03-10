@@ -507,7 +507,10 @@ a:hover{
 }
 
 form{
-	padding:2em;
+	padding:1em;
+}
+
+#sib-container{
 	margin-bottom:4rem;
 }
 
