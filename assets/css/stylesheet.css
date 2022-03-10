@@ -708,6 +708,22 @@ img{
 	text-align: center;
 }
 
+.pledge-totals li{
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+
+.pledge-totals li:nth-child(4n){
+	border-right:none;
+}
+
+.pledge-totals li:nth-child(5n),
+.pledge-totals li:nth-child(6n),
+.pledge-totals li:nth-child(7n),
+.pledge-totals li:nth-child(8n){
+	border-bottom:none;
+}
+
 .pledge-totals li span{
 	display: block;
 	font-size:var(--size-400);
@@ -716,3 +732,5 @@ img{
 .pledge-totals li em{
 	font-size:var(--size-700);
 }
+
+.pled
