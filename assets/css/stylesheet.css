@@ -259,8 +259,9 @@ nav.internal ul li a:hover{
 		width:240px;
 		padding:1em;
 		position:absolute;
-		top:calc(2.4rem - 1px);
+		top:calc(2.4rem - 3px);
 		right:0px;
+		border-radius: 3px;
 		display:none;
 	}
 	nav ul.show{
