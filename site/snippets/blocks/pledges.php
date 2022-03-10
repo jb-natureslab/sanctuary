@@ -7,7 +7,7 @@
 		<script>
 			$(window).ready(function(){
 			    $.get( "/getPledges.php", function( data ) {
-				 	$( ".pledges" ).text( data );
+				 	$( ".pledges" ).html( data );
 				});
 		    })
 		</script>
