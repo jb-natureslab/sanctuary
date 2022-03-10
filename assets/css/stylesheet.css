@@ -664,7 +664,7 @@ img{
 	margin-top:4rem !important;
 }
 
-.mce-success-response{
+#mce-success-response{
 	background:#fff;
 	padding:1em;
 	color:var(--colour-highlight);
@@ -673,7 +673,7 @@ img{
 	margin-top:1rem;
 }
 
-.mce-error-response{
+#mce-error-response{
 	background:#fff;
 	padding:1em;
 	color:#880000;
