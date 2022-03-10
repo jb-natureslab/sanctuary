@@ -336,6 +336,10 @@ nav ul li a:hover{
   padding-bottom: 100%;
 }
 
+.wrapper--form{
+	background:var(--colour-primary);
+}
+
 .wrapper--text_restrict,
 .wrapper--form_restrict,
 .wrapper--video_restrict,
@@ -503,13 +507,12 @@ a:hover{
 }
 
 form{
-	background:var(--colour-primary);
 	padding:2em;
 }
 
 form h2,
 form label{
-	color:#fff;
+
 }
 
 form label{
@@ -552,8 +555,7 @@ form .button:hover{
 }
 
 form p{
-	color:#fff;
-	margin-top:1em;
+  font-size:var(--size-400);
 }
 
 form a{
