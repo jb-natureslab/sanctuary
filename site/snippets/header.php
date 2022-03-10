@@ -50,7 +50,7 @@
 					echo '<a class="logo" href="/"><img src="/assets/images/sanctuary-color.svg" alt="Sanctuary Foundation" /></a>';
 				}
 			?>
-			<nav>
+			<nav <?php if(!$page->title()=='Home'){echo 'class="internal"';} ?>>
 				<button id="menu">Menu</button>
 				<ul>
 					<li><a href="/#about">About</a></li>
