@@ -269,6 +269,7 @@ nav.internal ul li a:hover{
 	nav ul li{
 		display:block;
 		text-align: right;
+		line-height:2rem;
 		margin:0;
 	}
 	nav ul li a{
