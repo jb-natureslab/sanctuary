@@ -55,6 +55,7 @@
 				<ul>
 					<li><a href="/#about">About</a></li>
 					<li><a href="/#pledge">Pledge Your Support</a></li>
+					<li><a href="/#give">Give</a></li>
 					<li><a href="/#endorsements">Endorsements</a></li>
 					<li><a href="/#us">Who We Are</a></li>
 					<li><a href="/#stories">Stories</a></li>
