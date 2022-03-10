@@ -29,7 +29,6 @@
 				<li><input type="radio" value="16" name="group[45229]" id="mce-group[45229]-45229-5"><label for="mce-group[45229]-45229-5">School or College</label></li>
 				<li><input type="radio" value="64" name="group[45229]" id="mce-group[45229]-45229-6"><label for="mce-group[45229]-45229-6">University</label></li>
 				</ul>
-				</div>
 				
 				<p>Please read our <a href="/privacy">privacy statement</a> before submitting this form. By pledging your support you are not committing to any specific form of help at this point, as the details of the scheme are yet to be published.</p>
 				  
