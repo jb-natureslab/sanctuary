@@ -511,7 +511,7 @@ form{
 }
 
 .sib-form{
-	margin-bottom:4rem;
+	margin-bottom:4rem !important;
 }
 
 form h2,
