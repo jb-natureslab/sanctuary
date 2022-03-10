@@ -526,6 +526,17 @@ form select{
 	background:#fff;
 }
 
+form ul{
+	margin:0;
+	padding:0;
+}
+
+form input[type=radio]{
+	float:left;
+	margin-top:10px;
+	margin-right:1rem;
+}
+
 form :focus{
 	outline:2px dashed var(--colour-highlight);
 }
@@ -651,4 +662,22 @@ img{
 
 .juicer-feed.loaded{
 	margin-top:4rem !important;
+}
+
+.mce-success-response{
+	background:#fff;
+	padding:1em;
+	color:var(--colour-highlight);
+	font-weight:700;
+	font-size:var(--size-500);
+	margin-top:1rem;
+}
+
+.mce-error-response{
+	background:#fff;
+	padding:1em;
+	color:#880000;
+	font-weight:700;
+	font-size:var(--size-500);
+	margin-top:1rem;
 }
