@@ -245,6 +245,14 @@ nav ul li a:hover{
 	color:var(--colour-highlight);
 }
 
+nav.internal ul li a{
+	color:var(--colour-primary);
+}
+
+nav.internal ul li a:hover{
+	color:var(--colour-secondary);
+}
+
 @media screen and (max-width:1024px){
 	nav ul{
 		background:#fff;
