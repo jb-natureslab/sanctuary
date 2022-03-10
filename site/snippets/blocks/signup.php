@@ -25,9 +25,9 @@
 				<li><input type="radio" value="4" name="group[45229]" id="mce-group[45229]-45229-1"><label for="mce-group[45229]-45229-1">Commuity Group</label></li>
 				<li><input type="radio" value="32" name="group[45229]" id="mce-group[45229]-45229-2"><label for="mce-group[45229]-45229-2">Neighbourhood</label></li>
 				<li><input type="radio" value="2" name="group[45229]" id="mce-group[45229]-45229-3"><label for="mce-group[45229]-45229-3">Church</label></li>
-				<li><input type="radio" value="8" name="group[45229]" id="mce-group[45229]-45229-4"><label for="mce-group[45229]-45229-4">Businesses including Pubs, Restaurants &amp; Shops</label></li>
+				<li><input type="radio" value="8" name="group[45229]" id="mce-group[45229]-45229-4"><label for="mce-group[45229]-45229-4">Business such as a Pub, Restaurant or Shop</label></li>
 				<li><input type="radio" value="16" name="group[45229]" id="mce-group[45229]-45229-5"><label for="mce-group[45229]-45229-5">School or College</label></li>
-				<li><input type="radio" value="64" name="group[45229]" id="mce-group[45229]-45229-6"><label for="mce-group[45229]-45229-6">University</label></li>
+				<li><input type="radio" value="64" name="group[45229]" id="mce-group[45229]-45229-6"><label for="mce-group[45229]-45229-6">University Offering Scholarships</label></li>
 				</ul>
 				
 				<p>Please read our <a href="/privacy">privacy statement</a> before submitting this form. By pledging your support you are not committing to any specific form of help at this point, as the details of the scheme are yet to be published.</p>
