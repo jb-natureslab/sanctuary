@@ -463,7 +463,7 @@ p.pledges{
 	padding:0 1em;
 }
 
-.button {
+.button, #give a{
   background-color: var(--colour-secondary);
   box-shadow: 0 5px 0 var(--colour-primary);
   color: white;
@@ -476,7 +476,7 @@ p.pledges{
   border-bottom:none;
 }
 
-.button:hover {
+.button:hover, #give a:hover {
   background-color: var(--colour-primary);
   cursor: pointer;
   border-bottom:none;
@@ -508,6 +508,7 @@ a:hover{
 
 form{
 	padding:2em;
+	margin-bottom:4rem;
 }
 
 form h2,
