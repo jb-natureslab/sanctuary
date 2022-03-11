@@ -76,10 +76,10 @@ select {
   --size-700: 2.36rem;
   --size-800: 3.15rem;
   --size-900: 4.2rem;
-  --colour-primary:#233A7C;
-  --colour-secondary:#723189;
-  --colour-highlight:#C72285;
-  --colour-accent:#FD6500;
+  --colour-primary:#213a8f;
+  --colour-secondary:#f9b233;
+  --colour-highlight:#95c11f;
+  --colour-accent:#21b0bf;
   
 }
 
@@ -441,7 +441,7 @@ p.pledges{
 	width:100%;
 	bottom:0px;
 	left:0px;
-	background: linear-gradient(to bottom right, rgba(35,58,124,1) 0%, rgba(199,34,133,0.6) 100%);
+	background: linear-gradient(to bottom right, rgba(33,58,143,1) 0%, rgba(249,178,51,0.8) 100%);
 	display:flex;
 	align-items: center;
 	justify-content: center;
@@ -474,8 +474,8 @@ p.pledges{
 }
 
 .button, #give a{
-  background-color: var(--colour-secondary);
-  box-shadow: 0 5px 0 var(--colour-primary);
+  background-color: var(--colour-primary);
+  box-shadow: 0 5px 0 var(--colour-secondary);
   color: white;
   padding: 1em 1.5em;
   position: relative;
@@ -487,7 +487,7 @@ p.pledges{
 }
 
 .button:hover, #give a:hover {
-  background-color: var(--colour-primary);
+  background-color: var(--colour-secondary);
   cursor: pointer;
   border-bottom:none;
   color:#fff;
@@ -586,7 +586,7 @@ form a:hover{
 	position: absolute;
 	top:-300px;
 	right:30px;
-	border:20px solid var(--colour-highlight);
+	border:20px solid var(--colour-secondary);
 	box-shadow: 0px 0px 10px #777;
 	transform: rotate(-2deg);
 	width:600px;
