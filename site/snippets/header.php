@@ -44,7 +44,7 @@
 		<div class="header_restrict">
 			
 			<?php
-				if($page->title()=='Home' || $page->title()=='Thanks'){
+				if($page->isHomePage()){
 					echo '<a class="logo" href="/"><img src="/assets/images/sanctuary-white.svg" alt="Sanctuary Foundation" /></a>';		
 				}else{
 					echo '<a class="logo" href="/"><img src="/assets/images/sanctuary-color.svg" alt="Sanctuary Foundation" /></a>';
