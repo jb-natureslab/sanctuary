@@ -55,6 +55,8 @@ fields:
         name: Endorsements
       pledges:
         name: Pledges
+      media:
+        name: Media
       photogallery:
         name: Gallery
         fields:

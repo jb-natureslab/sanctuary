@@ -60,6 +60,7 @@
 					<li><a href="/#us">Who We Are</a></li>
 					<li><a href="/#stories">Stories</a></li>
 					<li><a href="/#faq">FAQ</a></li>
+					<li><a href="/#media">Media</a></li>
 					<li><a href="/#social">Social</a></li>
 				</ul>
 			</nav>
