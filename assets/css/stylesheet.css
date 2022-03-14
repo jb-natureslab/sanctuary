@@ -310,9 +310,31 @@ nav.internal ul li a:hover{
 	text-align: center;
 }
 
+.wrapper--event{
+	background:var(--colour-primary);
+	margin-top:4rem;
+	padding-bottom:4rem;
+}
+
+.wrapper--event_text .restrict{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 2rem;
+	max-width:1280px;
+	margin:4rem auto;
+	padding:0 1rem;
+}
+
+.wrapper--event_text h2{
+	margin-top:0px;
+}
+
 .wrapper--pledges h3,
 .wrapper--pledges p,
-.wrapper--gallery h3{
+.wrapper--gallery h3,
+.wrapper--event_text h2,
+.wrapper--event_text h3,
+.wrapper--event_text p{
 	max-width: 100%;
 	color:#fff;
 }
@@ -493,9 +515,18 @@ p.pledges{
   color:#fff;
 }
 
+.button.light{
+	background-color: #fff;
+	color:var(--color-primary);
+}
+
 .button:active {
   box-shadow: none;
   top: 5px;
+}
+
+.button.light:hover{
+	background:var(--colour-secondary);
 }
 
 input[type=submit].button{
@@ -657,6 +688,9 @@ img{
 	}
 	.wrapper--endorsements ul.cards{
 		grid-template-columns: 1fr 1fr;
+	}
+	.wrapper--event_text .restrict{
+		grid-template-columns: 1fr;
 	}
 }
 
