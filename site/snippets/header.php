@@ -49,6 +49,8 @@
 				}else{
 					echo '<a class="logo" href="/"><img src="/assets/images/sanctuary-color.svg" alt="Sanctuary Foundation" /></a>';
 				}
+				
+				$items = $pages->listed();
 			?>
 			<nav <?php if(!$page->isHomePage()){echo 'class="internal"';} ?>>
 				<button id="menu">Menu</button>
@@ -56,12 +58,9 @@
 					<li><a href="/#about">About</a></li>
 					<li><a href="/#pledge">Pledge Your Support</a></li>
 					<li><a href="/#give">Give</a></li>
-					<li><a href="/#endorsements">Endorsements</a></li>
-					<li><a href="/#us">Who We Are</a></li>
-					<li><a href="/#stories">Stories</a></li>
-					<li><a href="/#faq">FAQ</a></li>
-					<li><a href="/#media">Media</a></li>
-					<li><a href="/#social">Social</a></li>
+					<?php foreach($items as $item): ?>
+				    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a></li>
+				    <?php endforeach ?>
 				</ul>
 			</nav>
 		</div>

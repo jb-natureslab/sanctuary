@@ -5,10 +5,8 @@
 		<link href='//assets.juicer.io/embed.css' media='all' rel='stylesheet' type='text/css' />
 		<ul class="juicer-feed" data-feed-id="ukrainesanctuary"></ul>   
 		<script>
-			 $(window).scroll(function() {
-		        if($(window).scrollTop()>'500'){
-		            Juicer.initialize();
-		        }
+			 $(window).ready(function() {
+		        Juicer.initialize();
 		    });
 		</script>
 	</div>
