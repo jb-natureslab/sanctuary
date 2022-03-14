@@ -506,6 +506,7 @@ p.pledges{
   display:inline-block;
   float:left;
   border-bottom:none;
+  margin-bottom:2rem;
 }
 
 .button:hover, #give a:hover {
