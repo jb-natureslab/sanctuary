@@ -253,7 +253,7 @@ nav.internal ul li a:hover{
 	color:var(--colour-secondary);
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1140px){
 	nav ul{
 		background:#fff;
 		width:240px;
