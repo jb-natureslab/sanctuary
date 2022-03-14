@@ -47,6 +47,8 @@ fields:
             type: text
       signup:
         name: Sign Up
+      signupua:
+        name: Sign Up Ukrainians
       embedvideo:
         name: Video
       twitterfeed:
