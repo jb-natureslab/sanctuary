@@ -387,6 +387,13 @@ nav.internal ul li a:hover{
 	position: relative;
 }
 
+.tweets{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2rem;
+	grid-row-gap: 2rem;
+}
+
 p.pledges{
 	font-size:var(--size-900);
 	margin-top:1rem;
@@ -663,6 +670,9 @@ img{
 	nav{
 		top:2.2em
 	}
+	.tweets{
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 @media screen and (max-width:720px){
@@ -697,6 +707,9 @@ img{
 
 @media screen and (max-width:600px){
 	.wrapper--endorsements ul.cards{
+		grid-template-columns: 1fr;
+	}
+	.tweets{
 		grid-template-columns: 1fr;
 	}
 }
