@@ -1,5 +1,5 @@
 <?php
-
+require_once($_SERVER['DOCUMENT_ROOT'].'/youtube.php');
 // API config 
 $Channel_ID = 'UCnRB8V1480GNyKfK5EIQhZg'; 
 $Max_Results = 1; 
