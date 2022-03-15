@@ -1,5 +1,5 @@
 <?php
-include('../../youtube.php');
+include('../../../youtube.php');
 // API config 
 $Channel_ID = 'UCnRB8V1480GNyKfK5EIQhZg'; 
 $Max_Results = 1; 
