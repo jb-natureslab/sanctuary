@@ -1,5 +1,4 @@
 <?php
-<?php
 // API config 
 $API_Key    = 'AIzaSyAebGAOmgocz1E2K82IIdQ1EwOGCSeFd40'; 
 $Channel_ID = 'UCnRB8V1480GNyKfK5EIQhZg'; 
