@@ -1,5 +1,6 @@
 	<footer class="footer">
 		<div class="footer_restrict flow">
+			<p>Working with <a href="https://resetuk.org">Reset Communities &amp; Refugees</a> &amp; <a href="https://www.stewardship.org.uk/">Stewardship</a></p>
 			<p>&copy; <?= date('Y') ?> Krish Kandiah &bull; <a href="/privacy">Privacy</a> &bull; Built by <a href="https://jackbarber.co.uk">Jack</a> &amp; <a href="https://www.seoandy.com/">Andy</a></p>
 		</div>
 	</footer>
