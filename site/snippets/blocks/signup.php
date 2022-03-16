@@ -40,16 +40,13 @@
     font-family: "Helvetica", sans-serif;
     color: #c0ccda;
   }
-  .sib-form{
-	  background:transparent !important;
-  }
 </style>
 <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 <!--  END - We recommend to place the above code in head tag of your website html -->
 
 <!-- START - We recommend to place the below code where you want the form in your website html  -->
 <div class="sib-form" style="text-align: center;
-         background-color: #EFF2F7;                                 ">
+         background-color: transparent;                                 ">
   <div id="sib-form-container" class="sib-form-container">
     <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
       <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
@@ -74,14 +71,17 @@
     </div>
     <div></div>
     <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid;">
-      <form id="sib-form" method="POST" action="https://f473aaff.sibforms.com/serve/MUIEALE4Pf9dSibHSGMf_c1FRMEByNvBtORZdqJeu4HSw9YNIAANi5mHiC9xyLab3OVo5pYWr6S-ofQm6y7te7CftulzobFQjtsb0UZoXAxN4v38elY62KKfWoBzc6qF8XKIjbzRLbmvfbY2uce_0LSin9U2coCgrhUhuy21P8tMeV6qOeDRbU4h7iSmFVHB6QBkaCm8O_BHCGz0" data-type="subscription">
+      <form id="sib-form" method="POST" action="https://f473aaff.sibforms.com/serve/MUIEAA__TpmMZlmrsUhUO0t4qa3Yv8zrs41ST99zM0orqpTqwIQULM1jU6W7JKGEo-6bdciqZRBcLXzRoajzwMJxy5MmJ7DwUtwDzbOr2vVIPBWp-Fm9ZR38tGYONiil6Dz803cx7tC9dlchepI8C-KG4V-ZkDo8KqxMKzPKugc46lQTOripvo5wk-rU_Vs27KItZamZqGw0lOTH" data-type="subscription">
         <div style="padding: 8px 0;">
           <div class="sib-form-block" style="font-size:32px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">
-            <h2>Pledge Your Support</h2>
+            <p>Pledge Your Support</p>
           </div>
         </div>
         <div style="padding: 8px 0;">
           <div class="sib-form-block" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">
+            <div class="sib-text-form-block">
+              <p>Subscribe to our newsletter and stay updated.</p>
+            </div>
           </div>
         </div>
         <div style="padding: 8px 0;">
@@ -166,6 +166,26 @@
                       <input type="checkbox" class="input_replaced" name="lists_31[]" data-value="Business such as a Pub, Restaurant or Shop" value="7" data-required="true" />
                       <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Business such as a Pub, Restaurant or Shop</span> </label>
                   </div>
+                  <div class="entry__choice">
+                    <label class="checkbox__label">
+                      <input type="checkbox" class="input_replaced" name="lists_31[]" data-value="Gurdwara" value="19" data-required="true" />
+                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Gurdwara</span> </label>
+                  </div>
+                  <div class="entry__choice">
+                    <label class="checkbox__label">
+                      <input type="checkbox" class="input_replaced" name="lists_31[]" data-value="Mosque" value="17" data-required="true" />
+                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Mosque</span> </label>
+                  </div>
+                  <div class="entry__choice">
+                    <label class="checkbox__label">
+                      <input type="checkbox" class="input_replaced" name="lists_31[]" data-value="Synagogue" value="18" data-required="true" />
+                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Synagogue</span> </label>
+                  </div>
+                  <div class="entry__choice">
+                    <label class="checkbox__label">
+                      <input type="checkbox" class="input_replaced" name="lists_31[]" data-value="Other Faith Group" value="20" data-required="true" />
+                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Other Faith Group</span> </label>
+                  </div>
                 </div>
               </div>
               <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
@@ -196,7 +216,7 @@
               <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
                 <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
               </svg>
-              I Pledge My Support
+              SUBSCRIBE
             </button>
           </div>
         </div>
