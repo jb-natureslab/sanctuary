@@ -158,13 +158,13 @@
                   </div>
                   <div class="entry__choice">
                     <label class="checkbox__label">
-                      <input type="checkbox" class="input_replaced" name="lists_31[]" data-value="Church" value="4" data-required="true" />
-                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Church</span> </label>
+                      <input type="checkbox" class="input_replaced" name="lists_31[]" data-value="Business such as a Pub, Restaurant or Shop" value="7" data-required="true" />
+                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Business such as a Pub, Restaurant or Shop</span> </label>
                   </div>
                   <div class="entry__choice">
                     <label class="checkbox__label">
-                      <input type="checkbox" class="input_replaced" name="lists_31[]" data-value="Business such as a Pub, Restaurant or Shop" value="7" data-required="true" />
-                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Business such as a Pub, Restaurant or Shop</span> </label>
+                      <input type="checkbox" class="input_replaced" name="lists_31[]" data-value="Church" value="4" data-required="true" />
+                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Church</span> </label>
                   </div>
                   <div class="entry__choice">
                     <label class="checkbox__label">
