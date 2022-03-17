@@ -5,7 +5,6 @@ getPledges.php
 # -------
 
 /content/*
-/site/snippets/blocks/embedvideo.php
 
 # System files
 # ------------
