@@ -1,7 +1,8 @@
 	<footer class="footer">
 		<div class="footer_restrict flow">
-			<p>Sanctuary Foundation is a partnership between registered charities, churches and other agencies led by Dr Krish Kandiah.</p>
-			<p>Our partners include <a href="https://resetuk.org">Reset Communities &amp; Refugees</a> &amp; <a href="https://www.stewardship.org.uk/">Stewardship</a></p>
+			<p>The Sanctuary Foundation is a collaborative project led by Dr Krish Kandiah in partnership with charities, churches and other agencies.  The project is being incubated by the charity <a href="https://www.stewardship.org.uk/" target="_blank">Stewardship</a>, who have opened a fund to receive donations to support this urgent response to the Ukraine crisis.</p>
+			<p>Stewardship is the operating name of Stewardship Services (UKET) Limited. Established in 1906. Registered charity no. 234714, registered in England and Wales, and a company limited by guarantee, no. 90305, registered in England and Wales. Registered office: 1 Lamb's Passage, London EC1Y 8AB. Stewardship is <a href="https://www.fundraisingregulator.org.uk/directory/stewardship-services-uket-limited">registered with the Fundraising Regulator</a>.</p>
+			<img src="/assets/images/frsb-logo.jpg" alt="Funraising Regulator Logo" />
 			<p>&copy; <?= date('Y') ?> <a href="https://krishk.com" target="_blank">Krish Kandiah</a> &bull; <a href="/privacy">Privacy</a> &bull; Built by <a href="https://jackbarber.co.uk">Jack</a> &amp; <a href="https://www.seoandy.com/">Andy</a></p>
 		</div>
 	</footer>
