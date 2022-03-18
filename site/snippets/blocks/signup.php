@@ -229,7 +229,7 @@
               <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
               </label>
               <label class="entry__specification" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4;">
-                You may unsubscribe at any time using the link in our newsletter.
+                You may unsubscribe at any time using the link in one of our emails.
               </label>
             </div>
           </div>
