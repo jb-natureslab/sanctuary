@@ -198,12 +198,12 @@ footer{
 
 footer p{
 	margin:0;
+	font-size:var(--size-400);
 }
 
 footer img{
 	max-width:280px;
 	height:auto;
-	float:left;
 	margin:1rem 0;
 }
 
