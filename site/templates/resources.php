@@ -4,7 +4,6 @@
 		<?= $page->text()->toBlocks() ?>
 		<div class="wrapper wrapper--text">
 			<div class="wrapper--text_restrict flow">
-				<h2>Resource Type</h2>
 				<ul class="subpages">
 				<?php foreach($page->children()->listed() as $item):?>
 					<li>
