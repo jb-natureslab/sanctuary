@@ -822,3 +822,8 @@ ul.subpages{
 ul.subpages li img{
 	max-width:100%;
 }
+
+.wrapper--resource a.button{
+	display:block;
+	padding:0.5rem 1rem;
+}
