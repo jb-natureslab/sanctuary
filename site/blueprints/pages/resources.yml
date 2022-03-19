@@ -101,12 +101,3 @@ fields:
             multiple: true
             layout: cards
             size: tiny
-      resource:
-        name: Resource
-        fields:
-          text:
-            label: Resource Name
-            type: text
-          description:
-            label: Description
-            type: textarea

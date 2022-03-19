@@ -304,6 +304,11 @@ nav.internal ul li a:hover{
 	float:left;
 }
 
+.wrapper--resource{
+	margin-top:2rem;
+	padding-bottom:2rem;
+}
+
 .wrapper--endorsements{
 	background:var(--colour-secondary);
 	margin-top:4rem;
@@ -386,6 +391,7 @@ nav.internal ul li a:hover{
 .wrapper--endorsements_restrict,
 .wrapper--pledges_restrict,
 .wrapper--gallery_restrict,
+.wrapper--resource_restrict,
 .footer_restrict{
 	max-width:1280px;
 	margin:0 auto;
@@ -800,4 +806,19 @@ img{
 	.pledge-totals li:nth-child(6n){
 		border-bottom:1px solid #fff;
 	}
+}
+
+ul.subpages{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 2rem;
+	grid-row-gap: 2rem;
+	margin:4rem 0;
+}
+
+ul.subpages li img{
+	max-width:100%;
 }
