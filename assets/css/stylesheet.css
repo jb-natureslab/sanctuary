@@ -824,6 +824,8 @@ ul.subpages li img{
 }
 
 a.button.small{
-	display:block;
+	display:inline-block;
+	float:none;
+	margin-top:1rem;
 	padding:0.5rem 1rem;
 }
