@@ -823,7 +823,7 @@ ul.subpages li img{
 	max-width:100%;
 }
 
-.wrapper--resource a.button{
+a.button.small{
 	display:block;
 	padding:0.5rem 1rem;
 }
