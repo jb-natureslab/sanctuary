@@ -419,6 +419,14 @@ nav.internal ul li a:hover{
 	color:#fff;
 }
 
+.wrapper--campaign_restrict a{
+	color:var(--colour-primary);
+}
+
+.wrapper--campaign_restrict a:hover{
+	color:var(--colour-secondary);
+}
+
 .tweets{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
