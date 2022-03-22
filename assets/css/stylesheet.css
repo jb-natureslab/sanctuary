@@ -304,7 +304,8 @@ nav.internal ul li a:hover{
 	float:left;
 }
 
-.wrapper--resource{
+.wrapper--campaign{
+	background:var(--colour-highlight);
 	margin-top:2rem;
 	padding-bottom:2rem;
 }
@@ -391,13 +392,31 @@ nav.internal ul li a:hover{
 .wrapper--endorsements_restrict,
 .wrapper--pledges_restrict,
 .wrapper--gallery_restrict,
-.wrapper--resource_restrict,
+.wrapper--campaign_restrict,
 .footer_restrict{
 	max-width:1280px;
 	margin:0 auto;
 	display:block;
 	padding:4rem 1em 0;
 	position: relative;
+}
+
+.wrapper--campaign_restrict{
+	max-width:1024px;
+}
+
+.wrapper--campaign_restrict .button{
+	margin-top:2rem;
+	margin-right:2rem;
+}
+
+.wrapper--campaign_restrict img{
+	grid-column: 1 / 3;
+}
+
+.wrapper--campaign_restrict h2,
+.wrapper--campaign_restrict p{
+	color:#fff;
 }
 
 .tweets{
@@ -489,6 +508,11 @@ p.pledges{
 	justify-content: center;
 }
 
+.wrapper--hero_text .button{
+	margin-right:1rem;
+	margin-bottom:0;
+}
+
 .wrapper--gallery{
 	background:var(--colour-primary);
 }
@@ -519,7 +543,7 @@ p.pledges{
   background-color: var(--colour-primary);
   box-shadow: 0 5px 0 var(--colour-secondary);
   color: white;
-  padding: 1em 1.5em;
+  padding: 0.8em 1.2em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -539,6 +563,7 @@ p.pledges{
 .button.light{
 	background-color: #fff;
 	color:var(--color-primary);
+	box-shadow: 0 5px 0 var(--colour-highlight);
 }
 
 .button:active {
@@ -547,7 +572,8 @@ p.pledges{
 }
 
 .button.light:hover{
-	background:var(--colour-secondary);
+	background:var(--colour-primary);
+	color:#fff;
 }
 
 input[type=submit].button{
@@ -649,7 +675,7 @@ form a:hover{
 	position:absolute;
 	right:700px;
 	top:-200px;
-	width:240px;
+	width:200px;
 	height:120px;
 }
 
@@ -663,7 +689,7 @@ img{
 		top:-200px;
 	}
 	.wrapper--video_restrict img{
-		top:-150px;
+		top:-120px;
 	}
 	.wrapper--video_restrict{
 		margin-bottom:140px;

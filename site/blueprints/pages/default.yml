@@ -41,6 +41,12 @@ fields:
           buttonurl:
             label: Button URL
             type: text
+          buttontwo:
+            label: Button Two Text
+            type: text
+          buttontwourl:
+            label: Button Two URL
+            type: text
       standardtext:
         name: Text
         fields:
@@ -101,12 +107,26 @@ fields:
             multiple: true
             layout: cards
             size: tiny
-      resource:
-        name: Resource
+      campaign:
+        name: Campaign
         fields:
           text:
-            label: Resource Name
-            type: text
-          description:
-            label: Description
+            label: Text
             type: textarea
+          photo:
+            label: Graphic
+            type: files
+            min: 1
+            max: 1
+          button:
+            label: Button Text
+            type: text
+          buttonurl:
+            label: Button URL
+            type: text
+          buttontwo:
+            label: Button Text 2
+            type: text
+          buttontwourl:
+            label: Button URL 2
+            type: text

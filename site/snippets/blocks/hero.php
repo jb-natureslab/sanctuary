@@ -10,6 +10,9 @@
 			<?php if (strlen($block->button())>0): ?>
 			<a class="button" href="<?= $block->buttonurl() ?>"><?= $block->button() ?></a>
 			<?php endif; ?>
+			<?php if (strlen($block->buttontwo())>0): ?>
+			<a class="button" href="<?= $block->buttontwourl() ?>"><?= $block->buttontwo() ?></a>
+			<?php endif; ?>
 		</div>
 	</div>
 </div>
