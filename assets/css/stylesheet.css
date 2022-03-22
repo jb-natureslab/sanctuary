@@ -427,6 +427,10 @@ nav.internal ul li a:hover{
 	color:var(--colour-secondary);
 }
 
+.wrapper--campaign_restrict a.button{
+	color:#fff;
+}
+
 .tweets{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
