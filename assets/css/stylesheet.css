@@ -425,6 +425,7 @@ nav.internal ul li a:hover{
 
 .wrapper--campaign_restrict a:hover{
 	color:var(--colour-secondary);
+	border-bottom:1px solid var(--colour-secondary);
 }
 
 .wrapper--campaign_restrict a.button{
