@@ -1,0 +1,40 @@
+title: Videos
+preset: page
+pages: true
+options:
+  changeTemplate:
+    - videos
+    - resources
+    - default
+fields:
+  seotitle:
+    label: SEO Page Title
+    type: text
+  meta:
+    label: Meta Description
+    type: text
+  introduction:
+    label: Introduction
+    type: textarea
+  text:
+    type: blocks
+    fieldsets:
+      youtubevideo:
+        name: Video
+        fields: 
+          videoheading:
+            label: Heading
+            type: text
+          videoid:
+            label: Video ID
+            type: text
+          categories:
+            label: Categories
+            type: checkboxes
+            options:
+              safeguarding: Safeguarding
+              stories: Stories from Ukraine
+              hosting: Hosting
+              visa: Visa Applications
+              children: Children
+              trauma: Trauma

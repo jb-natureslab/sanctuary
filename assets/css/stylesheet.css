@@ -552,9 +552,10 @@ p.pledges{
 	padding:0 1em;
 }
 
-.button, #give a{
+.button, #give a,button{
   background-color: var(--colour-primary);
   box-shadow: 0 5px 0 var(--colour-secondary);
+  border:none;
   color: white;
   padding: 0.8em 1.2em;
   position: relative;
@@ -566,7 +567,7 @@ p.pledges{
   margin-bottom:2rem;
 }
 
-.button:hover, #give a:hover {
+.button:hover, #give a:hover, button:hover, button.active {
   background-color: var(--colour-secondary);
   cursor: pointer;
   border-bottom:none;
@@ -867,4 +868,58 @@ a.button.small{
 	float:none;
 	margin-top:1rem;
 	padding:0.5rem 1rem;
+}
+
+ul.filters{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-top:1rem;
+}
+
+ul.filters li{
+	display:inline-block;
+	
+}
+
+ul.filters li button{
+	margin-bottom:0.5rem;
+	padding:0.5rem 0.8rem;
+	font-size:0.9rem;
+}
+
+ul.video-resources{
+	margin:0;
+	padding:0;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2rem;
+	grid-row-gap:2rem;
+	list-style:none;
+}
+
+ul.video-resources li{
+	background:#fff;
+	padding:1rem;
+}
+
+ul.video-resources li h2{
+	font-size:1.2rem;
+	margin-bottom:0.5rem;
+}
+
+ul.video-resources li iframe{
+	width:100%;
+}
+
+@media screen and (max-width:1024px){
+	ul.video-resources{
+		grid-template-columns: 1fr 1fr;	
+	}
+}
+
+@media screen and (max-width:680px){
+	ul.video-resources{
+		grid-template-columns: 1fr;	
+	}
 }
