@@ -5,13 +5,13 @@
 			<div class="wrapper--text_restrict flow">
 				<?= $page->introduction()->kt() ?>	
 				<ul class="filters">
+					<li><button class="active" data-category="all">All Videos</button></li>
 					<li><button data-category="safeguarding">Safeguarding</button></li>
 					<li><button data-category="stories">Stories from Ukraine</button></li>
 					<li><button data-category="hosting">Hosting</button></li>
 					<li><button data-category="visa">Visa Applications</button></li>
 					<li><button data-category="children">Children</button></li>
 					<li><button data-category="trauma">Trauma</button></li>
-					<li><button data-category="all">All Videos</button></li>
 				</ul>
 			</div>
 		</div>
