@@ -11,6 +11,7 @@
 					<li><button data-category="visa">Visa Applications</button></li>
 					<li><button data-category="children">Children</button></li>
 					<li><button data-category="trauma">Trauma</button></li>
+					<li><button data-category="all">All Videos</button></li>
 				</ul>
 			</div>
 		</div>
@@ -28,8 +29,12 @@
 		$('button').removeClass('active');
 		$(this).addClass('active');
 		var category = $(this).data('category');
-		$('.video-resources li').hide();
-		$('.video-resources li.'+category).show();	
+		if(category == 'all'){
+			$('.video-resources li').show();
+		}else{
+			$('.video-resources li').hide();
+			$('.video-resources li.'+category).show();	
+		}
 	})
 	</script>
 	
