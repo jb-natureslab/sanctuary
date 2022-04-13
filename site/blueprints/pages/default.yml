@@ -62,6 +62,10 @@ fields:
         name: Sign Up Ukrainians
       embedvideo:
         name: Video
+        fields:
+          videoid:
+            label: Video ID
+            type: text
       twitterfeed:
         name: Twitter
       endoresments:
