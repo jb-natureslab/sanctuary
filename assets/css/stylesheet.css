@@ -292,6 +292,7 @@ nav.internal ul li a:hover{
 		color:#fff;
 		float:right;
 		cursor:pointer;
+		box-shadow: none;
 	}
 	nav button:hover{
 		background:#fff;
@@ -731,6 +732,9 @@ img{
 @media screen and (max-width:720px){
 	nav{
 		top:1.4rem;
+	}
+	a.logo img{
+		max-height:70px;
 	}
 }
 
