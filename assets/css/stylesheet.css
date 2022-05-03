@@ -390,6 +390,10 @@ nav.internal ul li a:hover{
 	background:var(--colour-primary);
 }
 
+.wrapper--form.course{
+	margin-top:4rem;
+}
+
 .wrapper--text_restrict,
 .wrapper--form_restrict,
 .wrapper--video_restrict,

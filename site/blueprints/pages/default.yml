@@ -60,6 +60,8 @@ fields:
         name: Sign Up
       signupua:
         name: Sign Up Ukrainians
+      course:
+        name: Course Signup
       embedvideo:
         name: Video
         fields:
