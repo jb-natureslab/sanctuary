@@ -8,8 +8,8 @@
 	<meta name="description" content="<?= $page->meta() ?>">
 	
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@krishk" />
-	<meta name="twitter:creator" content="@krishk" />
+	<meta name="twitter:site" content="@sanctuaryfd" />
+	<meta name="twitter:creator" content="@sanctuaryfd" />
 	<meta name="twitter:image:alt" content="Supporting New Arrivals from Ukraine to the UK">
 	<meta property="og:title" content="<?= $page->seotitle() ?>">
 	<meta property="og:description" content="<?= $page->meta() ?>">
@@ -17,7 +17,7 @@
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://sanctuaryfoundation.org.uk">
-	<meta property="og:image" content="https://sanctuaryfoundation.org.uk/assets/images/og.jpg">
+	<meta property="og:image" content="https://sanctuaryfoundation.org.uk/assets/images/og_2.jpg">
 	
 	<link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-icon-60x60.png">
