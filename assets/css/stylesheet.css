@@ -835,11 +835,16 @@ img{
 
 .pledge-totals.course{
 	display:block;
+	max-width:100%;
 }
 
 .pledge-totals.course li{
 	border:none;
 	width:100%;
+}
+
+.wrapper--pledges.course{
+	margin-bottom:0px;
 }
 
 .pledge-totals li:nth-child(5n),
