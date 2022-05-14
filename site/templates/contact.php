@@ -3,7 +3,7 @@
 	<main>
 		<?= $page->text()->toBlocks() ?>
 		<div class="wrapper wrapper--text">
-			<div class="contact">
+			<div class="wrapper--text_restrict flow">
 				<?php if($success): ?>
 		        <div class="alert success">
 		            <p><?= $success ?></p>
