@@ -848,10 +848,10 @@ ul.pledge-totals.course{
 	margin-bottom:-4rem;
 }
 
+.pledge-totals li:nth-child(4n),
 .pledge-totals li:nth-child(5n),
 .pledge-totals li:nth-child(6n),
-.pledge-totals li:nth-child(7n),
-.pledge-totals li:nth-child(8n){
+.pledge-totals li:nth-child(7n){
 	border-bottom:none;
 }
 
