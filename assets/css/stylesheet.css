@@ -244,12 +244,12 @@ nav ul{
 
 nav ul li{
 	display:inline-block;
-	margin-left:1.4rem;
+	margin-left:1.2rem;
 }
 
 nav ul li a{
 	color:#fff;
-	font-size:var(--size-300);
+	font-size:var(--size-400);
 }
 
 nav ul li a:hover{
