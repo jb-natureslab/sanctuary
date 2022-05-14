@@ -2,7 +2,7 @@
 	
 	<main>
 		<?= $page->text()->toBlocks() ?>
-		<div class="wrapper wrapper--text" id="<?= $block->containerid() ?>">
+		<div class="wrapper wrapper--text">
 			<div class="contact">
 				<?php if($success): ?>
 		        <div class="alert success">
