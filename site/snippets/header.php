@@ -71,7 +71,7 @@
 				$items = $pages->listed();
 			?>
 			<nav <?php if(!$page->isHomePage()){echo 'class="internal"';} ?>>
-				<button id="menu">Menu</button>
+				<button id="menu" class="<?php if($page->isHomePage()){}else{echo "internal";}?>">Menu</button>
 				<ul>
 					<li><a href="/">Home</a></li>
 					<li><a href="/#pledge">Pledge Your Support</a></li>

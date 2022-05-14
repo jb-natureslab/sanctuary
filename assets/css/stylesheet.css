@@ -244,7 +244,7 @@ nav ul{
 
 nav ul li{
 	display:inline-block;
-	margin-left:2rem;
+	margin-left:1.4rem;
 }
 
 nav ul li a{
@@ -297,6 +297,10 @@ nav.internal ul li a:hover{
 		float:right;
 		cursor:pointer;
 		box-shadow: none;
+	}
+	nav button.internal{
+		border: 1px solid var(--colour-primary);
+		color: var(--colour-primary);
 	}
 	nav button:hover{
 		background:#fff;
