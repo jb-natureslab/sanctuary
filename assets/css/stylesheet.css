@@ -833,6 +833,15 @@ img{
 	border-right:none;
 }
 
+.pledge-totals.course{
+	display:block;
+}
+
+.pledge-totals.course li{
+	border:none;
+	width:100%;
+}
+
 .pledge-totals li:nth-child(5n),
 .pledge-totals li:nth-child(6n),
 .pledge-totals li:nth-child(7n),
