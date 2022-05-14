@@ -841,6 +841,7 @@ ul.pledge-totals.course{
 .pledge-totals.course li{
 	border:none;
 	width:100%;
+	max-width:100%;
 }
 
 .wrapper--pledges.course{
