@@ -73,9 +73,8 @@
 			<nav <?php if(!$page->isHomePage()){echo 'class="internal"';} ?>>
 				<button id="menu">Menu</button>
 				<ul>
-					<li><a href="/#about">About</a></li>
+					<li><a href="/">Home</a></li>
 					<li><a href="/#pledge">Pledge Your Support</a></li>
-					<li><a href="/#give">Give</a></li>
 					<?php foreach($items as $item): ?>
 				    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a></li>
 				    <?php endforeach ?>
