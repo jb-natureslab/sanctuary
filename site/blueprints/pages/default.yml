@@ -75,6 +75,8 @@ fields:
         name: Endorsements
       pledges:
         name: Pledges
+      coursesignups:
+        name: Course Signups
       media:
         name: Media
       eventitem:
