@@ -15,7 +15,7 @@
 			        </div>
 		        <?php endif ?>
 		        <h2>Send Us a Message</h2>
-		        <form class="form" method="post" action="<?= $page->url() ?>">
+		        <form class="form contact" method="post" action="<?= $page->url() ?>">
 		            <div class="honeypot">
 		                <label for="website">Website <abbr title="required">*</abbr></label>
 		                <input type="url" id="website" name="website" tabindex="-1">
