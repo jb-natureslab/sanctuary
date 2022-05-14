@@ -5,6 +5,7 @@ options:
   changeTemplate:
     - resources
     - default
+    - contact
 fields:
   seotitle:
     label: SEO Page Title
