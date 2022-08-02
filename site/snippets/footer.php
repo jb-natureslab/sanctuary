@@ -2,8 +2,6 @@
 		<div class="footer_restrict flow">
 			<p>Sanctuary Foundation is a charity and it has been entered onto the Register of Charities with the Registered Charity Number 1198534</p>
 			<p>The project was incubated and facilitated by the charity Stewardship</p>
-			<p>Registered with Fundraising Regulator</p>
-			<img src="/assets/images/frsb-logo.jpg" alt="Funraising Regulator Logo" />
 			<p>&copy; <?= date('Y') ?> Sanctuary Foundation &bull; <a href="/privacy">Privacy</a> &bull; Built by <a href="https://jackbarber.co.uk">Jack</a></p>
 		</div>
 	</footer>
