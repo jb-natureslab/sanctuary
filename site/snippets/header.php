@@ -42,6 +42,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@700&display=swap" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@700&display=swap" media="print" onload="this.media='all'" />
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
 	<noscript>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@700&display=swap" />
 	</noscript>

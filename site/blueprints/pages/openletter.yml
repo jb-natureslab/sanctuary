@@ -1,0 +1,141 @@
+title: Open Letter
+preset: page
+pages: true
+options:
+  changeTemplate:
+    - resources
+    - default
+    - contact
+fields:
+  seotitle:
+    label: SEO Page Title
+    type: text
+  meta:
+    label: Meta Description
+    type: text
+  text:
+    type: blocks
+    fieldsets:
+      hero:
+        name: Hero
+        fields:
+          heading:
+            label: Heading
+            type: text
+          subheading:
+            label: Subheading
+            type: text
+          intro:
+            label: Introduction
+            type: textarea
+          photo:
+            label: Photo
+            type: files
+            min: 1
+            max: 1
+          photoalt:
+            label: Photo Alt Text
+            type: text
+          button:
+            label: Button Text
+            type: text
+          buttonurl:
+            label: Button URL
+            type: text
+          buttontwo:
+            label: Button Two Text
+            type: text
+          buttontwourl:
+            label: Button Two URL
+            type: text
+      standardtext:
+        name: Text
+        fields:
+          text:
+            label: Text
+            type: textarea
+          containerid:
+            label: ID for Navigation
+            type: text
+      signup:
+        name: Sign Up
+      signupua:
+        name: Sign Up Ukrainians
+      course:
+        name: Course Signup
+      embedvideo:
+        name: Video
+        fields:
+          videoid:
+            label: Video ID
+            type: text
+      twitterfeed:
+        name: Twitter
+      endoresments:
+        name: Endorsements
+      pledges:
+        name: Pledges
+      coursesignups:
+        name: Course Signups
+      media:
+        name: Media
+      eventitem:
+        name: Event
+        fields:
+          heading:
+            label: Heading
+            type: text
+          subheading:
+            label: Subheading
+            type: text
+          intro: Intro
+            type: textarea
+          photo:
+            label: Graphic
+            type: files
+            min: 1
+            max: 1
+          photoalt:
+            label: Graphic ALT
+            type: text
+          button:
+            label: Button Text
+            type: text
+          buttonurl:
+            label: Button URL
+            type: text
+      photogallery:
+        name: Gallery
+        fields:
+          text:
+            label: Gallery Name
+            type: text
+          images:
+            type: files
+            label: Images
+            multiple: true
+            layout: cards
+            size: tiny
+      campaign:
+        name: Campaign
+        fields:
+          text:
+            label: Text
+            type: textarea
+          photo:
+            label: Graphic
+            type: files
+            min: 1
+            max: 1
+          button:
+            label: Button Text
+            type: text
+          buttonurl:
+            label: Button URL
+            type: text
+          buttontwo:
+            label: Button Text 2
+            type: text
+          buttontwourl:
+            label: Button URL 2
+            type: text

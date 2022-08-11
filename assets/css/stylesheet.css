@@ -964,3 +964,43 @@ textarea{
 form.contact{
 	padding:0;
 }
+
+.letter{
+	padding:2rem;
+	background:#fffaec;
+	border:2px solid #ffd035;
+	display:grid;
+	grid-template-columns: auto 480px;
+	grid-column-gap: 2rem;
+	position: relative;
+}
+
+.letter p,
+.letter ul{
+	color:#333;
+}
+
+.sib-form{
+	position:sticky;
+	top:0;
+}
+
+.signaturies{
+	font-family:'Caveat';
+	font-size:3rem;
+}
+
+small{
+	color:#777;
+}
+
+@media screen and (max-width:768px){
+	.letter{
+		display:block;
+	}
+	.sib-form{
+		padding:0 !important;
+		padding-top:1rem !important;
+		margin-top:3rem !important;
+	}
+}
