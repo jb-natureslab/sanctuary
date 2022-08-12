@@ -7,8 +7,7 @@
 				<div class="letter flow">
 					<div class="content flow">
 						<?= $page->letter()->kt() ?>
-						<h3 class="signaturies"><span id="signaturies"></span> Hosts</h3>
-						<small>Who are hosting <span id="refugees"></span> Ukrainian Refugees</small>
+						<span id="signaturies"></span>
 					</div>
 					<div class="form">
 						<!-- Begin Sendinblue Form -->
@@ -253,9 +252,6 @@
 		$(window).ready(function(){
 		    $.get( "/getSignaturies.php", function( data ) {
 			 	$( "#signaturies" ).html( data );
-			});
-			$.get( "/getRefugees.php", function( data ) {
-			 	$( "#refugees" ).html( data );
 			});
 	    })
 	</script>
