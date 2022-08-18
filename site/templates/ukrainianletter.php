@@ -54,9 +54,9 @@
 <!--  END - We recommend to place the above code in head tag of your website html -->
 
 <!-- START - We recommend to place the below code where you want the form in your website html  -->
-<div class="sib-form" style="text-align: center;
-         background-color: #EFF2F7;                                           ">
-  <div id="sib-form-container" class="sib-form-container">
+<div class="sib-form">
+	<h2>Sign the Letter</h2>
+  <div id="sib-form-container" class="sib-form-container" style="margin-top:1rem;">
     <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid;">
       <form id="sib-form" method="POST" action="https://f473aaff.sibforms.com/serve/MUIEAL5al1ubK0dzgiPya5NYIj059d_xxxyWa3R-hQXQdTtkCuu36eZYE5QR37ztaexvKFTDpEeyMjBSmLVw0kdhDZhs2R9me-tEt5hEpgKTTA5N6b9sp9t21A0USvJjjuozg1T0eiUQjNeQu5RDnQyV3V1azmQZXzCPLjb5e_T4wgfHt8HCO8qZ2buCaYLIQQ8Y3xnfFrITexyT">
         <div style="padding: 8px 0;">
