@@ -266,13 +266,11 @@
 	</main>
 	
 	<script>
-/*
 		$(window).ready(function(){
-		    $.get( "/getSignaturies.php", function( data ) {
+		    $.get( "/getUkrainianSignaturies.php", function( data ) {
 			 	$( "#signaturies" ).html( data );
 			});
 	    })
-*/
 	</script>
 	
 <?php snippet('footer'); ?>
