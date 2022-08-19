@@ -175,7 +175,7 @@ h3 {
     font-size: var(--size-700);
   }
 
-  p,ul,label,a {
+  p,ul,ol,label,a {
     font-size: var(--size-500);
   }
 }
@@ -976,7 +976,8 @@ form.contact{
 }
 
 .letter p,
-.letter ul{
+.letter ul,
+.letter ol{
 	color:#333;
 }
 
