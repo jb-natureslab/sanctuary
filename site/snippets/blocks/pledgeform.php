@@ -1,4 +1,4 @@
-<div class="wrapper wrapper--event">
+<div class="wrapper wrapper--event" id="host">
 	<div class="wrapper--event_text">
 		<div class="restrict">
 			<div class="flow">

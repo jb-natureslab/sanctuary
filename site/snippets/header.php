@@ -75,7 +75,7 @@
 				<button id="menu" class="<?php if($page->isHomePage()){}else{echo "internal";}?>">Menu</button>
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a href="/#pledge">Pledge Your Support</a></li>
+					<li><a href="/#host">Become a Host</a></li>
 					<?php foreach($items as $item): ?>
 				    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a></li>
 				    <?php endforeach ?>
