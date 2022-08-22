@@ -48,8 +48,7 @@
 <!--  END - We recommend to place the above code in head tag of your website html -->
 
 <!-- START - We recommend to place the below code where you want the form in your website html  -->
-<div class="sib-form" style="text-align: center;
-         background-color: #EFF2F7;                                           ">
+<div class="sib-form" style="">
   <div id="sib-form-container" class="sib-form-container">
     <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid;">
       <form id="sib-form" method="POST" action="https://f473aaff.sibforms.com/serve/MUIEAH8g8x3saWi5GYK74A_xQNpgMI1l5VWNxjD1HJkJGMB7Sp3VqMguhZI2kTE_7twLJ7gBexIYhlVajAkUZSvTtJ_pvdiOsRknTknG7DZ5RbbKlw3U3oaJ2IqTjBdLIz-EkwDG_UOcfAX4nSHuA1qM4IST5ws7Od7XQholFtEDjRJxSCTyFe2UOtZuNNDAHLoBXOahEn8OuPcz">
@@ -198,7 +197,7 @@
                 <div class="entry__choice">
                   <label>
                     <input type="checkbox" class="input_replaced" value="1" id="OPT_IN" name="OPT_IN" required />
-                    <span class="checkbox checkbox_tick_positive"></span><span style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p>I agree to receive your newsletters and accept the data privacy statement.</p></span> </label>
+                    <span class="checkbox checkbox_tick_positive"></span><span style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p style="color:#687484 !important">I agree to receive your newsletters and accept the data privacy statement.</p></span> </label>
                 </div>
               </div>
               <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
