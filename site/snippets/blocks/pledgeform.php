@@ -48,10 +48,11 @@
 <!--  END - We recommend to place the above code in head tag of your website html -->
 
 <!-- START - We recommend to place the below code where you want the form in your website html  -->
-<div class="sib-form" style="">
+<div class="sib-form" style="text-align: center;
+         background-color: #EFF2F7;                                           ">
   <div id="sib-form-container" class="sib-form-container">
     <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid;">
-      <form id="sib-form" method="POST" action="https://f473aaff.sibforms.com/serve/MUIEAEKorbhCGPk7HZyCLCttAfSvoZrK7qmeNP5ujTaUtqWnZ8mL7uNFg-8-MX6t0f3-OuGPqZStakYgFvLWk8IT8h4jsMDAAIgrBYB4sLTjpg0s8en20us84Mx1XdchI80I7SPbYoW41sRoqfBLoBTDXGk3R3x941-PAT7_8kNB-fuGSb2dJQ1wF6S7IpmXLNE3YFTSvMGIvXnD">
+      <form id="sib-form" method="POST" action="https://f473aaff.sibforms.com/serve/MUIEAH8g8x3saWi5GYK74A_xQNpgMI1l5VWNxjD1HJkJGMB7Sp3VqMguhZI2kTE_7twLJ7gBexIYhlVajAkUZSvTtJ_pvdiOsRknTknG7DZ5RbbKlw3U3oaJ2IqTjBdLIz-EkwDG_UOcfAX4nSHuA1qM4IST5ws7Od7XQholFtEDjRJxSCTyFe2UOtZuNNDAHLoBXOahEn8OuPcz">
         <div style="padding: 8px 0;">
           <div class="sib-input sib-form-block">
             <div class="form__entry entry_block">
@@ -151,7 +152,7 @@
             <div class="form__entry entry_block">
               <div class="form__label-row ">
                 <label class="entry__label" style="font-weight: 700; font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858;" for="MOTIVATION" data-required="*">
-                  What has motivated you to become a host?
+                  Please share what has motivated you to become a host?
                 </label>
 
                 <div class="entry__field">
@@ -160,6 +161,9 @@
               </div>
 
               <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+              </label>
+              <label class="entry__specification" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4;">
+                Customize this optional help text before publishing your form.
               </label>
             </div>
           </div>
@@ -194,7 +198,7 @@
                 <div class="entry__choice">
                   <label>
                     <input type="checkbox" class="input_replaced" value="1" id="OPT_IN" name="OPT_IN" required />
-                    <span class="checkbox checkbox_tick_positive"></span><span style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p style="color:#687484 !important">I agree to receive your newsletters and accept the data privacy statement.</p></span> </label>
+                    <span class="checkbox checkbox_tick_positive"></span><span style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p>I agree to receive your newsletters and accept the data privacy statement.</p></span> </label>
                 </div>
               </div>
               <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
