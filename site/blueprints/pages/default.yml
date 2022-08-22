@@ -104,6 +104,20 @@ fields:
           buttonurl:
             label: Button URL
             type: text
+      pledgeform:
+        name: Pledge Form V2
+        fields:
+          heading:
+            label: Heading
+            type: text
+          intro: Intro
+            type: textarea
+          button:
+            label: Button Text
+            type: text
+          buttonurl:
+            label: Button URL
+            type: text
       photogallery:
         name: Gallery
         fields:

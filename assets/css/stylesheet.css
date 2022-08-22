@@ -356,7 +356,9 @@ nav.internal ul li a:hover{
 .wrapper--gallery h3,
 .wrapper--event_text h2,
 .wrapper--event_text h3,
-.wrapper--event_text p{
+.wrapper--event_text p,
+.wrapper--event_text ul,
+.wrapper--event_text ol{
 	max-width: 100%;
 	color:#fff;
 }
