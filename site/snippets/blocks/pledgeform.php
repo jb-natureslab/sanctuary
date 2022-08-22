@@ -151,7 +151,7 @@
             <div class="form__entry entry_block">
               <div class="form__label-row ">
                 <label class="entry__label" style="font-weight: 700; font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858;" for="MOTIVATION" data-required="*">
-                  Please share what has motivated you to become a host?
+                  What has motivated you to become a host?
                 </label>
 
                 <div class="entry__field">
