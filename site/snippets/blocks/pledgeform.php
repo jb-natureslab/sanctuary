@@ -217,7 +217,7 @@
                   Opt-in
                 </label>
                 <div class="entry__choice">
-                  <label>
+                  <label style="margin-top:0px;">
                     <input type="checkbox" class="input_replaced" value="1" id="OPT_IN" name="OPT_IN" required />
                     <span class="checkbox checkbox_tick_positive"></span><span style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p style="color:#687484 !important;">I agree accept the data privacy statement.</p></span> </label>
                 </div>
